@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Home */
+
+header{
+    text-align: center;
+   background-color: rgb(0, 0, 0);
+   color: white;
+}
+
+#idlogo {
+    width: 120px;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+}
+
+
+#h2t{
+    text-align: center;
+}
+
+#ht {
+width: 600px;
+
+    object-fit: contain;
+    height: fit-content;
+    margin-top: 1rem;
+    border: solid black 2px;
+    padding: .2rem;
+}
+
+main {
+    display: flex;
+    padding: 2rem;
+    gap: 4rem;
+}
+
+/* //About//  */
+
+#mainer2{
+   
+
+    #self{
+        width: 300px;
+        border: solid black 2px;
+        margin-top: 1rem;
+        padding-top: .2rem;
+    }
+
+
+    h2{
+        text-align: center;
+    }
+}
+
+
+
+
+/* Projects */
+
+#pjsec{
+    text-align: center;
+    margin-left:2rem ;
+    margin-right: 2rem;
+}
+
+
+#mainer3
+{
+    border: solid 2px black;
+    padding-top: 2rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+
+.slideshow-slide {
+    max-width: 300px;
+    min-width: 300px;
+    position: relative;
+    margin: auto;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    width: 30%;
+    margin-top: -20px;
+    padding: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+  
+    
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    width: -30%;
+    padding: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+
+
+}
+
+    .next {
+        right: 0;
+    
+    }
+    .text {
+        color: white;
+        font-size: 20px;
+        padding: 12px 12px;
+        position: absolute;
+        top: 3px;
+        width: 100%;
+        text-align: right;
+    
+
+    }
+
+    .number {
+        color: white;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+
+    }
+
+
+
+
+/* Playfield */
+
+#mainer4{
+
+    #pfh2{
+        text-align: center;
+    }
+
+    #pfvid{
+        border: solid black 2px;
+
+
+      
+    }
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+
+main img{
+
+  max-width: 100%;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+
+
+}
+}
